@@ -1,0 +1,38 @@
+{
+  "name": "radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiRura/radio.git"
+  },
+  "author": "KiRura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KiRura/radio/issues"
+  },
+  "homepage": "https://github.com/KiRura/radio#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.5",
+    "@vladfrangu/async_event_emitter": "^2.2.2",
+    "discord-player": "^6.6.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "mediaplex": "^0.0.9",
+    "ping": "^0.4.4",
+    "tslog": "^4.9.2",
+    "youtube-ext": "^1.1.16"
+  }
+}
